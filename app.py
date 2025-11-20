@@ -22,4 +22,3 @@ if st.button("Predict"):
     
     result = model.predict(data)[0]
     st.success(f"Prediction: {result}")
-
